@@ -296,11 +296,11 @@ $$
 The monthly historical tail statistics are
 
 $$
-VaR_{5\%}=Q_{0.05}(R_t),
+\mathrm{VaR}_{0.05} = Q_{0.05}(R_t)
 $$
 
 $$
-CVaR_{5\%}=E\left[R_t\mid R_t\leq VaR_{5\%}\right].
+\mathrm{CVaR}_{0.05} = \mathbb{E}[R_t \mid R_t \leq Q_{0.05}(R_t)]
 $$
 
 CVaR is the **average return among the worst 5% of observed months**, while maximum drawdown measures the largest peak-to-trough fall in cumulative wealth:
