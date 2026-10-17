@@ -147,8 +147,8 @@ $$
 $$
 m_t =
 \begin{cases}
-0.80, & \text{if Low FDI}, \\[4pt]
-1.00, & \text{if Middle FDI}, \\[4pt]
+0.80, & \text{if Low FDI}, \\
+1.00, & \text{if Middle FDI}, \\
 1.25, & \text{if High FDI}.
 \end{cases}
 $$
