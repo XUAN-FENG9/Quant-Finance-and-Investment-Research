@@ -141,8 +141,16 @@ $$
 \begin{aligned}
 k_t^{Constant}&=\min\left(1.25,\frac{0.04}{\widehat{TE}_t}\right),\\
 k_t^{FDI}&=\min\left(1.25,\frac{0.04}{m_t\widehat{TE}_t}\right),\qquad
-m_t=\begin{cases}0.80&\text{Low},\\1.00&\text{Middle},\\1.25&\text{High}.\end{cases}
 \end{aligned}
+$$
+
+$$
+m_t =
+\begin{cases}
+0.80, & \text{if Low FDI}, \\[4pt]
+1.00, & \text{if Middle FDI}, \\[4pt]
+1.25, & \text{if High FDI}.
+\end{cases}
 $$
 
 Each rule forms a candidate allocation $w_t=b_t+k_t\Delta w_t$. In the FDI-adjusted rule, **High FDI increases estimated active risk by 25%, so the same proposed tilt is scaled down**. This is different from the FDI-Aware Momentum “gate” above, which allows *more* tilt in High FDI.
