@@ -89,7 +89,7 @@ The total market return is computed from `Mkt-RF + RF`. Thus, $Bear_{t-1}=1$ mea
 The baseline volatility indicator is the sample standard deviation of the previous 12 monthly **market excess returns**:
 
 $$
-\sigma^{MKT}_{t-1}=\operatorname{SD}\left(R^{MKT,excess}_{t-12},\ldots,R^{MKT,excess}_{t-1}\right).
+\sigma_{M,t-1} = \mathrm{SD}(R_{M,t-12}^{ex}, \ldots, R_{M,t-1}^{ex})
 $$
 
 The historical window avoids incorporating the return being explained. Robustness tests repeat the analysis using 6- and 24-month volatility windows.
@@ -99,7 +99,7 @@ The historical window avoids incorporating the return being explained. Robustnes
 The baseline crash indicator equals one if WML is among the **worst 5% of monthly returns** within its market group:
 
 $$
-Crash^{5\%}_t=\mathbf{1}\left\{R_{WML,t}\leq Q_{0.05}(R_{WML})\right\}.
+Crash_{0.05,t} = \mathrm{I}[R_{WML,t} \leq Q_{0.05}(R_{WML})]
 $$
 
 Here, $Q_{0.05}$ denotes the fifth percentile of the full-sample momentum-return distribution. The Notebook also considers the worst 10% and a rolling 60-month fifth-percentile threshold based entirely on information from months before $t$.
@@ -127,7 +127,7 @@ The OLS regressions use **Newey–West/HAC standard errors with six lags**.
 An average-return regression is not the same as a crash-probability model. To study the probability of a large loss directly, the Notebook estimates a logistic specification:
 
 $$
-P(Crash^{5\%}_t=1\mid X_{t-1})=\frac{1}{1+\exp(-z_t)},
+P(Crash_{0.05,t}=1 \mid X_{t-1}) = \frac{1}{1+\exp(-z_t)}
 $$
 
 with
