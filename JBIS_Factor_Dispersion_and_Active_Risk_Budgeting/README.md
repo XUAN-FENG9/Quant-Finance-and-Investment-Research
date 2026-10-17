@@ -1,8 +1,7 @@
 
 # Factor Dispersion and Active-Risk Budgeting: Evidence from Factor Momentum
 
-**Research and replication materials**  
-**Authors:** Xuan Feng, Erwang Li, and Zhuohang Li  
+**Research and replication materials**   
 **Paper:** [Read the preprint](preprint_JBIS_factor_dispersion.pdf)  
 **Notebook:** [Open the complete analysis](JBIS_Factor_Dispersion_JOI_OneClick.ipynb)
 
@@ -115,7 +114,12 @@ The **FDI-Aware Momentum** strategy uses the same rankings but scales the tilt b
 
 $$
 w^{FDI\text{-}MOM}_{i,t}=\frac{b_{i,t}(1+0.75g_tq_{i,t})}{\sum_jb_{j,t}(1+0.75g_tq_{j,t})},\qquad
-g_t=\begin{cases}0&\text{Low},\\0.5&\text{Middle},\\1&\text{High}.\end{cases}
+g_t =
+\begin{cases}
+0, & \text{if Low FDI}, \\[4pt]
+0.5, & \text{if Middle FDI}, \\[4pt]
+1, & \text{if High FDI}.
+\end{cases}
 $$
 
 Thus it applies **no momentum tilt in Low FDI**, half the normal tilt in Middle FDI, and the full tilt in High FDI. **FDI-Aware Reversal** follows the same schedule but tilts toward past losers.
