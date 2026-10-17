@@ -114,6 +114,9 @@ The **FDI-Aware Momentum** strategy uses the same rankings but scales the tilt b
 
 $$
 w^{FDI\text{-}MOM}_{i,t}=\frac{b_{i,t}(1+0.75g_tq_{i,t})}{\sum_jb_{j,t}(1+0.75g_tq_{j,t})},\qquad
+$$
+
+$$
 g_t =
 \begin{cases}
 0, & \text{if Low FDI}, \\[4pt]
