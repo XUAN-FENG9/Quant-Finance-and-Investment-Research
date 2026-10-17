@@ -119,8 +119,8 @@ $$
 $$
 g_t =
 \begin{cases}
-0, & \text{if Low FDI}, \\[4pt]
-0.5, & \text{if Middle FDI}, \\[4pt]
+0, & \text{if Low FDI}, \\
+0.5, & \text{if Middle FDI}, \\
 1, & \text{if High FDI}.
 \end{cases}
 $$
