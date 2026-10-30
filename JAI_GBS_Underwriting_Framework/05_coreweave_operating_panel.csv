@@ -1,0 +1,7 @@
+quarter,period_end,revenue_usd_m,revenue_backlog_usd_bn,rpo_usd_bn,active_power_mw,contracted_power_mw,interest_expense_net_usd_m,pp_and_e_purchases_quarter_usd_m,source_url,active_power_note,source_tier,retrieved_date
+2025Q1,2025-03-31,982.0,25.9,14.7,420.0,1600.0,264.0,,https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-First-Quarter-2025-Results/default.aspx,approx.,issuer_release,2026-09-11
+2025Q2,2025-06-30,1212.788,30.1,,,,267.0,,https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Second-Quarter-2025-Results/2025/,not separately captured,issuer_release,2026-09-11
+2025Q3,2025-09-30,1364.676,55.6,,,,,3278.786,https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/,not separately captured,issuer_release,2026-09-11
+2025Q4,2025-12-31,1571.536,66.8,,850.0,3100.0,,,https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx,more than / approx. floor,issuer_release,2026-09-11
+2026Q1,2026-03-31,2078.0,99.4,,1000.0,,536.0,,https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/,surpassed 1GW / floor,issuer_release,2026-09-11
+2026Q2,2026-06-30,2575.0,104.0,,1500.0,3700.0,640.0,,https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx,reported 1.5GW,issuer_release,2026-09-11

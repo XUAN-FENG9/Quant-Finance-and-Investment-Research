@@ -1,0 +1,8 @@
+file,unit_of_observation,coverage,research_use,preferred_source,source_quality,design_note
+01_gpu_specs.csv,GPU model,H100/H200/B200,Technology state; obsolescence; performance/power normalization,NVIDIA official product/news pages,High,"Use announcement/introduction dates, not a fabricated MSRP. Main sample only."
+02_gpu_cloud_rental_prices.csv,Provider × GPU × contract/pricing type,H100/H200/B200,Observable compute cash-flow anchor,Official cloud-provider pricing pages,High,"Keep contract type, region and GPU count; compare only after converting to $/GPU-hour."
+03_gpu_secondary_market.csv,GPU model × market observation/date,Mainly H100/H200; B200 model-only where no executions exist,Residual value / recovery calibration,CCIR executed/ask record + Dataku historical aggregate,Medium-High,"Executed sales, posted asks and model-implied values are never blended."
+04_gpu_backed_financing_transactions.csv,Financing facility/transaction,2023-2026 GPU-backed financings,"Real-world leverage, maturity, pricing, ratings, collateral and contract support",SEC filings + issuer releases,High,Core empirical market-evidence table for GBS calibration.
+05_coreweave_operating_panel.csv,Quarter,2025Q1-2026Q2,Contracted cash-flow visibility and scaling evidence,CoreWeave investor relations / SEC,High,Not a broad firm panel; a calibration case study because public quarterly history is short.
+06_adjacent_datacenter_abs.csv,ABS transaction/series,2025-2026,Benchmark securitization structure and collateral,S&P Global Ratings public transaction pages,High,Adjacent benchmark only; not labelled GPU-backed.
+07_source_registry.csv,Source,All,Audit trail and reproducibility,All sources used in this data package,High,URLs retained so live pages can be re-scraped later.

@@ -1,0 +1,8 @@
+issue,finding,research_treatment
+Current cloud prices,Cross-sectional snapshot as of retrieval date; live pages can change.,"Use for calibration, not as a long historical panel."
+AWS vs neocloud prices,AWS entries are Capacity Blocks while other rows may be on-demand/spot/self-service.,Never pool contract types without controls or scenario labels.
+Secondary hardware prices,CCIR executed and ask records are distinct; Dataku is a historical broker-listing aggregate.,Primary recovery calibration should weight executed CCIR evidence more heavily.
+B200 residual value,No executed B200 market record was available in CCIR; only model-implied value is stored.,"Treat B200 residual as scenario/model input, not observed sale price."
+GPU MSRP,NVIDIA does not publish a standardized datacenter MSRP suitable for all variants.,Do not use a fabricated MSRP; use observed launch-basis proxies only when evidence-graded.
+Utilization,"No broad, standardized public utilization panel exists across providers.",Model utilization as calibrated scenarios; do not pretend it is observed panel data.
+GBS prices/returns,No mature traded GBS time series exists.,"Paper should be structural/calibrated + market evidence, not conventional return-regression asset pricing."

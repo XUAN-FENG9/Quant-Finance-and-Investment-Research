@@ -1,0 +1,21 @@
+source_name,use,source_tier,url,retrieved_date
+NVIDIA H100,GPU specs/announcement,official_vendor,https://www.nvidia.com/en-us/data-center/h100/,2026-09-11
+NVIDIA H200,GPU specs,official_vendor,https://www.nvidia.com/en-us/data-center/h200/,2026-09-11
+NVIDIA H200 announcement,announcement date,official_vendor,https://investor.nvidia.com/news/press-release-details/2023/NVIDIA-Supercharges-Hopper-the-Worlds-Leading-AI-Computing-Platform/default.aspx,2026-09-11
+NVIDIA Blackwell announcement,announcement date,official_vendor,https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing,2026-09-11
+CoreWeave pricing,rental pricing,official_vendor,https://www.coreweave.com/pricing,2026-09-11
+AWS EC2 Capacity Blocks,rental pricing,official_vendor,https://aws.amazon.com/ec2/capacityblocks/pricing/,2026-09-11
+Lambda pricing,rental pricing,official_vendor,https://lambda.ai/pricing,2026-09-11
+RunPod pricing,rental pricing,official_vendor,https://www.runpod.io/pricing,2026-09-11
+Nebius pricing,rental pricing,official_vendor,https://nebius.com/prices,2026-09-11
+CCIR hardware,secondary hardware executed/ask aggregate,independent_market_aggregate,https://ccir.io/hardware,2026-09-11
+Dataku H100 resale,historical secondary-market proxy,secondary_aggregate,https://dataku.ai/blog/h100-resale-market-crashing-pricing-data,2026-09-11
+CoreWeave SEC 2026Q2 10-Q,debt facilities,regulatory_filing,https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm,2026-09-11
+CoreWeave DDTL 4.0 SEC exhibit,GPU-backed financing,regulatory_filing,https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex991.htm,2026-09-11
+CoreWeave DDTL 5.0 SEC filing,GPU-backed financing,regulatory_filing,https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm,2026-09-11
+Nebius secured debt SEC exhibit,GPU-backed financing,regulatory_filing,https://www.sec.gov/Archives/edgar/data/1513845/000110465926084452/tm2620683d1_ex99-1.htm,2026-09-11
+Lambda TLB deal coverage,GPU asset-backed financing,deal_press,https://www.abfjournal.com/lambda-closes-926mm-senior-secured-term-loan-b-facility/,2026-09-11
+Nscale GPU DDTL,GPU-backed financing,issuer_release,https://www.nscale.com/press-releases/nscale-signs-1-4bn-delayed-draw-term-loan,2026-09-11
+S&P QTS 2025-1,adjacent data-center ABS,rating_agency,https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3434670,2026-09-11
+S&P QTS 2026-4/5,adjacent data-center ABS,rating_agency,https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3536535,2026-09-11
+S&P Compass 2026-2,adjacent data-center ABS,rating_agency,https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3597250,2026-09-11
