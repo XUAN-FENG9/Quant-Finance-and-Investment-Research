@@ -69,10 +69,7 @@ Senior principal amortizes over 48 months. Mezzanine principal is due at month 4
 The reference GPU mix is 50% H100, 30% H200, and 20% B200.
 
 $$
-p_{\mathrm{ref}} =
-0.50p_{\mathrm{H100}}
-+ 0.30p_{\mathrm{H200}}
-+ 0.20p_{\mathrm{B200}}
+p_{\mathrm{ref}} = 0.50p_{\mathrm{H100}}+ 0.30p_{\mathrm{H200}}+ 0.20p_{\mathrm{B200}}
 $$
 
 The resulting reference rental price is approximately **USD 5.45 per GPU-hour**.
